@@ -26,3 +26,6 @@ An API allows different software systems to communicate.
 The browser requests the website, DNS finds the server, the server
 responds, and the browser renders the page.
 
+# Good Commit Message Examples
+-   docs: add internet basics explanation
+-   fix: correct DNS explanation
