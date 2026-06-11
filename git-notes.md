@@ -26,6 +26,6 @@ A request to merge changes into another branch.
 -   git pull
 -   git checkout -b branch-name
 
-## Good Commit Message Examples
+## Good Commit Message
 -   docs: document basic git commands
 
