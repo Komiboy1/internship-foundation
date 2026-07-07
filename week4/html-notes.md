@@ -36,3 +36,44 @@ Represents a single item in a list
 
 # <a>
 Creates a hyperlink that allows users to navigate to another webpage
+
+# CSS Basics
+# What is CSS
+CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance of HTML elements. It is response for its visual design, including colors, fonts, spacing, boarders, and layout
+
+# What is a Selector
+A selector identifies which HTML element a CSS rule applies to
+
+# Example
+h1 { color : blue }
+
+# What is a Property
+A property defines what aspect of an element you want to change
+
+# Example include
+- color
+- background-color
+- font-size
+- margin
+- padding
+- border
+
+# What is a Value
+A value specifies how the propert should be applied
+
+# Example
+color : blue;
+Property : 'color'
+Value : 'blue'
+
+# CSS Properties Used
+- background-color
+- color
+- font-family
+- font-size
+- margin
+- padding
+- border
+- text-align
+- line-height
+- text-decoration
