@@ -14,3 +14,26 @@ console.log(2 + 2) -> 4
 console.log('2' + 2) -> 22 because the number is converted to a string
 typeof 'hello' -> string
 typeof 42 -> number
+
+# Variables and Data Types
+
+Variables store values in JavaScript
+
+- const is used when the value should not change
+- let is used when the value can change
+- var is an older way of creating variables and is generally avoided
+
+Common data types:
+- String
+- Number
+- Boolean
+- Array
+- Object
+- Null
+- Undefined
+
+Arrays use indexes that start at 0
+
+Objects store data as properties that can be accessed using dot notation
+
+null means an intentional empty value, while undefined means a variable has not been assigned a value
