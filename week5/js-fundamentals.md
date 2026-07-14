@@ -37,3 +37,16 @@ Arrays use indexes that start at 0
 Objects store data as properties that can be accessed using dot notation
 
 null means an intentional empty value, while undefined means a variable has not been assigned a value
+
+# Functions and Control Flow
+Functions are reusable blocks of code that perform specific tasks. They can accept inputs (parameters) and return outputs using the 'return' keyword
+
+There are two common ways to write functions in JavaScript:
+- Function declarations
+- Arrow functions
+
+Control flow allows a program to make decisoins and repeat actions
+
+- 'if/else' statements execute different code depending on whether a condition is true or false
+- 'for' loops repeat code a specific number of times
+- 'foeEach()' loops through each item in an array and is often simpler to read than a 'for' loop.
