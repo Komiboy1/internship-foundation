@@ -31,6 +31,47 @@ const person = {
     course: "Sofware Engineering"
 }
 
+// Exercise 6
+function largerNumber(a, b){
+    if (a > b){
+        return a;
+    } else {
+        return b;
+    }
+}
+
+console.log(largerNumber(10, 3));
+comsole.log(largerNumber(2, 6));
+
+// Exercise 7
+function sumArray(numbers){
+    let total = 0;
+
+    for (let i = 0; i < numbers.length; i++){
+        total += numbers[i]
+    }
+
+    return total;
+}
+
+console.log(sumArray([2, 4, 6, 8]));
+
+// Exercise 8
+function introduce(name, age){
+    return "Hello, my name is " + name + " and I am " + age + " years old.";
+}
+
+console.log(introduce("Ebube", 24));
+
+
+
+
+
+
+
+
+
+
 console.log(person);
 console.log(person.name);
 console.log(person.age);
