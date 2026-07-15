@@ -50,3 +50,16 @@ Control flow allows a program to make decisoins and repeat actions
 - 'if/else' statements execute different code depending on whether a condition is true or false
 - 'for' loops repeat code a specific number of times
 - 'foeEach()' loops through each item in an array and is often simpler to read than a 'for' loop.
+
+# DOM Basics
+The DOM (Document Object Model) is how JavaScript represents an HTML page as objects. It allows JavaScript to access and modify webpage elements
+
+Methods used:
+- 'document.getElementById()' selects an element by its unique ID
+- 'document.querySelector()' select the first element that matches a CSS selector
+- 'textContent' changes or reads the text inside an element
+- 'style' changes an element's CSS properties
+- 'document.createElement()' creates a new HTML element
+- 'appendChild()' adds the new element to the webpage
+
+Using these methods, JavaScript can dynamically update a webpage without changing the original HTML file
