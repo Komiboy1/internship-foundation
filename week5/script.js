@@ -65,13 +65,6 @@ console.log(introduce("Ebube", 24));
 
 
 
-
-
-
-
-
-
-
 console.log(person);
 console.log(person.name);
 console.log(person.age);
@@ -84,8 +77,31 @@ let address;
 console.log(address);
 
 
+// DOM Basics
 
+// Select heading
+const heading = document.getElementById("main-heading");
+console.log(heading);
 
+// Select paragraph
+const paragraph = document.querySelector("p");
+console.log(paragraph.textContent);
+
+// Change heading text
+heading.textContent = "Changed by JavaScript!";
+
+// Change paragraph style
+paragraph.style.color = "blue";
+
+// Create a new paragraph
+const newParagraph = document.createElement("p");
+
+// Add text to it
+newParagraph.textContent =
+    "This paragraph was created using JavaScript.";
+
+// Add it to the page
+document.body.appendChild(newParagraph);
 
 
 
