@@ -1,9 +1,9 @@
-console.log("Hello, World!");
-console.log(2+2);
-console.log('2' + 2);
-console.log(typeof 'hello');
-console.log(typeof 42);
-console.log("script.js connected successfully!");
+// console.log("Hello, World!");
+// console.log(2+2);
+// console.log('2' + 2);
+// console.log(typeof 'hello');
+// console.log(typeof 42);
+// console.log("script.js connected successfully!");
 
 // Exercise 1
 const name = "Ebube";
@@ -31,6 +31,11 @@ const person = {
     course: "Sofware Engineering"
 }
 
+console.log(person);
+console.log(person.name);
+console.log(person.age);
+console.log(person.course);
+
 // Exercise 6
 function largerNumber(a, b){
     if (a > b){
@@ -41,7 +46,7 @@ function largerNumber(a, b){
 }
 
 console.log(largerNumber(10, 3));
-comsole.log(largerNumber(2, 6));
+console.log(largerNumber(2, 6));
 
 // Exercise 7
 function sumArray(numbers){
@@ -63,12 +68,6 @@ function introduce(name, age){
 
 console.log(introduce("Ebube", 24));
 
-
-
-console.log(person);
-console.log(person.name);
-console.log(person.age);
-console.log(person.course);
 
 const middleName = null;
 console.log(middleName);
