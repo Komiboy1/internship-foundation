@@ -36,3 +36,21 @@ The 'git stash' command temporarily saves uncommitted changes so that you can sw
 - 'git stash' - Save changes
 - 'git stash list' - Display saved stashes
 - 'git stash pop' - Restore the most recent stash and remove it from the stash list
+
+# Rebasing
+"git rebase" moves the commits from the current branch so they appear on top of another branch, usually "main". This creates a cleaner and more linear project history.
+
+# Difference Between Merge and Rebase
+- 'git merge' combines two branches and may create a merge commit
+- 'git rebase' replays commits from one branch onto another without creating a merge commit in the normal case
+
+# When to Use Rebase
+Rebase is useful for updating a feature branch with the latest changes from "main" before creating a pullrequest. It helps keep the commit history clean and easy to follow
+
+If conflicts occur during a rebase:
+- Resolve the conflicts
+- Run "git add 'file'"
+- Run "git rebase --continue"
+
+To cancel a rebase, use:
+git rebase --abort
