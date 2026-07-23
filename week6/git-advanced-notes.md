@@ -54,3 +54,15 @@ If conflicts occur during a rebase:
 
 To cancel a rebase, use:
 git rebase --abort
+
+# Code Review
+Code reviews help improve software quality and encourage collaboration between developers
+
+Good code review feedbackk should:
+- Be respectful and professional
+- Explain why a change is recommended
+- Suggest a possible improvement instead of only pointing out a problem
+- Focus on the code, not the person
+- Be specific and easy to understand
+
+Examples of useful feedback include recommending better variable names, adding error handling, improving formatting, or following modern JavaScript best practices. 
