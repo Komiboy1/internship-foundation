@@ -1,0 +1,33 @@
+# Week 6 – JavaScript Events, Fetch API & APIs
+
+## Overview
+This repository contains my Week 6 internship tasks, focusing on JavaScript event listeners, the Fetch API, asynchronous programming with async/await, and building a live API-powered webpage.
+
+## Tasks Completed
+- Task 1: Reviewed and improved Week 5 work
+- Task 2: Created an interactive Event Listeners practice page
+- Task 3: Built a Fetch API practice page that retrieves posts and random jokes
+- Task 4: Developed a live Country Search application using the REST Countries API
+- Task 5: Organized the repository and updated project documentation
+
+## Files
+- events-practice.html
+- script.js
+- fetch-practice.html
+- fetch.js
+- api-page.html
+- api.js
+- js-fundamentals.md
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Fetch API
+- REST Countries API
+- JSONPlaceholder API
+- Official Joke API
+
+
+
+

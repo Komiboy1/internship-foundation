@@ -63,3 +63,4 @@ Methods used:
 - 'appendChild()' adds the new element to the webpage
 
 Using these methods, JavaScript can dynamically update a webpage without changing the original HTML file
+

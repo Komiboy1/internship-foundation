@@ -1,9 +1,9 @@
-// console.log("Hello, World!");
-// console.log(2+2);
-// console.log('2' + 2);
-// console.log(typeof 'hello');
-// console.log(typeof 42);
-// console.log("script.js connected successfully!");
+console.log("Hello, World!");
+console.log(2+2);
+console.log('2' + 2);
+console.log(typeof 'hello');
+console.log(typeof 42);
+console.log("script.js connected successfully!");
 
 // Exercise 1
 const name = "Ebube";
