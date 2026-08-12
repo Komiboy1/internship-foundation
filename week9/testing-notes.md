@@ -34,3 +34,13 @@ test('adds two numbers', () => {
     // Assert
     expect(result).toBe(5);
 });
+
+## Jest Setup and First Test
+
+Jest was installed as a development dependency using `npm install --save-dev jest`. The `package.json` test script was configured to run Jest using `npm test`.
+
+I created a `math.js` file containing two functions: `add()` and `multiply()`. I then created `math.test.js` and wrote tests to verify that both functions produced the expected results.
+
+I also deliberately changed the `add()` function so that it produced an incorrect result. When I ran `npm test`, Jest identified the failing test and showed the expected and received values. After correcting the function, all tests passed again.
+
+The `expect().toBe()` method checks whether the value returned by the function exactly matches the expected value.
