@@ -43,4 +43,18 @@ I created a `math.js` file containing two functions: `add()` and `multiply()`. I
 
 I also deliberately changed the `add()` function so that it produced an incorrect result. When I ran `npm test`, Jest identified the failing test and showed the expected and received values. After correcting the function, all tests passed again.
 
-The `expect().toBe()` method checks whether the value returned by the function exactly matches the expected value.
+The `expect().toBe()` method checks whether the value returned by the function exactly matches the expected value. 
+
+## Testing Week 5 Exercises
+
+I created a new module called `exercises.js` containing three pure JavaScript functions from Week 5:
+
+- `largerNumber()` – returns the larger of two numbers.
+- `sumArray()` – returns the total of all numbers in an array.
+- `greet()` – returns a greeting message.
+
+I wrote six Jest tests in `exercises.test.js`, including both normal and edge cases. The edge cases included equal numbers, an empty array, and an empty string. Running `npm test` confirmed that all tests passed successfully.
+
+### Why Edge Cases Matter
+
+Edge cases test unusual or boundary inputs that may expose hidden bugs. Including them improves the reliability of the application and ensures functions behave correctly under different conditions.
