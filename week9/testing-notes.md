@@ -56,3 +56,34 @@ I wrote six Jest tests in `exercises.test.js`, including both normal and edge ca
 ### Why Edge Cases Matter
 
 Edge cases test unusual or boundary inputs that may expose hidden bugs. Including them improves the reliability of the application and ensures functions behave correctly under different conditions.
+
+## Testable Code
+
+### Pure Functions
+
+A pure function always returns the same output for the same input and has no side effects. It does not modify external data, the DOM, or global variables.
+
+Example:
+
+```javascript
+function sumArray(numbers) {
+  return numbers.reduce((total, num) => total + num, 0);
+}
+```
+
+### Impure Functions
+
+An impure function depends on or changes external state, such as updating the webpage through the DOM.
+
+Example:
+
+```javascript
+function displayGreeting(name) {
+  document.getElementById("message").textContent =
+    `Hello, ${name}!`;
+}
+```
+
+### Why Testable Code Matters
+
+Pure functions are easier to unit test because they only require inputs and expected outputs. Impure functions require additional setup, making them more complex to test. Separating logic from UI code improves reliability, maintainability, and code quality.
