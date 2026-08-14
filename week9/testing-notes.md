@@ -20,9 +20,8 @@ The Arrange → Act → Assert pattern is a common structure for writing tests:
 2. Act – Run the function or code being tested.
 3. Assert – Check that the result matches the expected result.
 
-Example:
+## Example:
 
-```javascript
 test('adds two numbers', () => {
     // Arrange
     const a = 2;
@@ -36,7 +35,6 @@ test('adds two numbers', () => {
 });
 
 ## Jest Setup and First Test
-
 Jest was installed as a development dependency using `npm install --save-dev jest`. The `package.json` test script was configured to run Jest using `npm test`.
 
 I created a `math.js` file containing two functions: `add()` and `multiply()`. I then created `math.test.js` and wrote tests to verify that both functions produced the expected results.
